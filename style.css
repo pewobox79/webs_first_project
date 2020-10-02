@@ -94,6 +94,87 @@
     background-size: cover;
 }
 
+/*blackbox css*/
+
+#blackbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+}
+
+#cta-button {
+    border: 1px solid white;
+    box-shadow: 1px red;
+    width: 250px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 15px 10px 0px 10px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*stay saddle css*/
+#stay-saddle-section {
+    height: 400px;
+    width: 100%;
+
+
+}
+
+#stay-section-img, #form-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+#stay-image {
+    float: none;
+    padding: 70px 0px 15px 0px;
+}
+
+#stay-section-text {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: lightgrey;
+    font-size: 1.3em;
+
+}
+
+#form-container {
+    margin-top: 30px;
+
+}
+
+#input-field {
+    height: 40px;
+    padding: 0px 40px;
+    text-align: left;
+    border: 1px solid lightgrey;
+}
+
+#input-field::placeholder {
+    color: lightgrey;
+    font-style: italic;
+}
+
+#submit-button {
+    height: 43px;
+    width: 90px;
+    background-color: rgba(104, 195, 163, 1);
+    color: white;
+    border-color: rgba(104, 195, 163, 1);
+    border-width: 0px;
+    border-style: none;
+}
+
 /* Footer section start */
 
 .flexbox {
